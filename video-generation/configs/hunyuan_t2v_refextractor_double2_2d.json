@@ -1,0 +1,33 @@
+{
+  "_class_name": "HYVideoDiffusionTransformer",
+  "_diffusers_version": "0.32.0.dev0",
+  "guidance_embed": true,
+  "heads_num": 24,
+  "hidden_size": 3072,
+  "in_channels": 16,
+  "mlp_act_type": "gelu_tanh",
+  "mlp_width_ratio": 4,
+  "mm_double_blocks_depth": 9,
+  "mm_single_blocks_depth": 0,
+  "out_channels": 16,
+  "patch_size": [
+    1,
+    2,
+    2
+  ],
+  "qk_norm": true,
+  "qk_norm_type": "rms",
+  "qkv_bias": true,
+  "rope_dim_list": [
+    16,
+    56,
+    56
+  ],
+  "text_projection": "single_refiner",
+  "text_states_dim": 4096,
+  "text_states_dim_2": 768,
+  "use_attention_mask": true,
+  "embedded_guidance_scale": 6.0,
+  "controlnet_ref": false,
+  "ref_repeat": false
+}

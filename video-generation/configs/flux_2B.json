@@ -1,0 +1,21 @@
+{
+  "_class_name": "PyramidFluxTransformer",
+  "_diffusers_version": "0.30.3",
+  "attention_head_dim": 64,
+  "axes_dims_rope": [
+    16,
+    24,
+    24
+  ],
+  "in_channels": 64,
+  "interp_condition_pos": true,
+  "joint_attention_dim": 4096,
+  "num_attention_heads": 30,
+  "num_layers": 8,
+  "num_single_layers": 16,
+  "patch_size": 1,
+  "pooled_projection_dim": 768,
+  "use_flash_attn": false,
+  "use_gradient_checkpointing": false,
+  "use_temporal_causal": true
+}

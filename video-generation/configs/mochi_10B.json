@@ -1,0 +1,16 @@
+{
+  "_class_name": "MochiTransformer3DModel",
+  "_diffusers_version": "0.32.0.dev0",
+  "activation_fn": "swiglu",
+  "attention_head_dim": 128,
+  "in_channels": 12,
+  "max_sequence_length": 256,
+  "num_attention_heads": 24,
+  "num_layers": 48,
+  "out_channels": null,
+  "patch_size": 2,
+  "pooled_projection_dim": 1536,
+  "qk_norm": "rms_norm",
+  "text_embed_dim": 4096,
+  "time_embed_dim": 256
+}

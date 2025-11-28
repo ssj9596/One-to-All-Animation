@@ -1,0 +1,3 @@
+'''
+non diffusers version
+'''

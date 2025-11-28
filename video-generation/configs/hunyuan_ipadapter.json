@@ -1,0 +1,21 @@
+{
+  "enable_ipadapter": true,
+  "ipadapter_scale" : 1,
+  "ipadapter_hidden_size": 3072,
+  "ipadapter_cross_attention_dim": 4096,
+  "ipadapter_num_tokens": 4,
+  
+  "ipadapter_scale_start": 0.0,
+  "ipadapter_scale_end": 1.0,
+  "ipadapter_total_steps" : 1.0,
+
+  "ipadapter_double_blocks_depth":20,
+  "ipadapter_single_blocks_depth":40,
+
+
+  "mlp_in_dim": 1152,
+  "mlp_out_dim": 4096,
+  "mlp_num_tokens": 4,
+  "mlp_act": "gelu"
+
+}

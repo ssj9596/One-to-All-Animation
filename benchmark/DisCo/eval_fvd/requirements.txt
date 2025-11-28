@@ -1,0 +1,5 @@
+https://huggingface.co/datasets/MochunniaN1/fvd/tree/main
+
+i3d_pretrained_400.pt
+resnet-50-kinetics.pth
+

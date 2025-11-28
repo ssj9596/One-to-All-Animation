@@ -1,0 +1,18 @@
+CUDA_VISIBLE_DEVICES=0 python opensora/sample/sample_t2v.py \
+    --model_path expr_ft/checkpoint-7750/model_ema \
+    --num_frames 93 \
+    --height 480 \
+    --width 640 \
+    --cache_dir "../cache_dir" \
+    --text_encoder_name xxx \
+    --text_prompt overfit_prompt.txt \
+    --ae CausalVAEModel_D4_4x8x8 \
+    --ae_path "Open-Sora-Plan-v1.2.0/vae" \
+    --save_img_path "./sample_video_29x4800p_cfg7.5_step100" \
+    --fps 24 \
+    --guidance_scale 7.5 \
+    --num_sampling_steps 100 \
+    --enable_tiling \
+    --max_sequence_length 512 \
+    --sample_method EulerAncestralDiscrete \
+    --model_type "dit"

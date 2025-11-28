@@ -1,0 +1,49 @@
+python opensora/train/train.py \
+      --cache_dir "./cache_dir" \
+      --dataset t2v_multi_res \
+      --data "training_data_10000.csv"   \
+      --sample_rate 1 \
+      --num_frames 81 \
+      --max_height 768 \
+      --max_width 1360 \
+      --gradient_checkpointing \
+      --dataloader_num_workers 0 \
+      --gradient_accumulation_steps=1 \
+      --learning_rate=5e-5 \
+      --optimizer adamw \
+      --adam_beta1 0.9 \
+      --adam_beta2 0.95 \
+      --adam_weight_decay 1e-4 \
+      --lr_scheduler="constant_with_warmup" \
+      --lr_warmup_steps=500 \
+      --mixed_precision="bf16" \
+      --report_to=None \
+      --checkpointing_steps=100 \
+      --allow_tf32 \
+      --use_ema \
+      --ema_start_step 0 \
+      --cfg 0.1 \
+      --resume_from_checkpoint="latest" \
+      --ema_decay 0.999 \
+      --output_dir="outputs/cogvideo_1_5_i2v_debug" \
+      --checkpoints_total_limit 3 \
+      --seed 42 \
+      --num_train_epochs 10 \
+      --diffusion_formula CogVideo \
+      --train_fps 16 \
+      --evaluation_steps 5 \
+      --evaluation_every 100 \
+      --valid_data training_data_10000.csv \
+      --max_num_evaluate_samples 4 \
+      --ignore_timestamps \
+      --bucket_name cogvideo_1_5 \
+      --dit_name cogvideo \
+      --config_path configs/cogvideo_1_5_5B_i2v.json \
+      --text_encoder_name t5 \
+      --text_encoder_path CogVideoX1.5-5B-I2V/ \
+      --vae_name cogvideo \
+      --vae_path CogVideoX1.5-5B-I2V/vae \
+      --load_encoders \
+      --pretrained CogVideoX1.5-5B/transformer/ \
+      --task i2v \
+      --max_sequence_length 226

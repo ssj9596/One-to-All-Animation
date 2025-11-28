@@ -1,0 +1,21 @@
+
+torchrun --nnodes=1 --nproc_per_node 1  --master_port 29504 \
+    -m opensora.sample.sample_t2v_sp \
+    --model_path outputs/expr_stage_3_6B_2/checkpoint-26731-3970/model_ema \
+    --num_frames 29 \
+    --height 192 \
+    --width 384 \
+    --cache_dir "../cache_dir" \
+    --text_encoder_name xxx \
+    --text_prompt examples/prompt_opensora_2.txt \
+    --ae CausalVAEModel_D4_4x8x8 \
+    --ae_path "Open-Sora-Plan-v1.2.0/vae" \
+    --save_img_path "generations/expr_stage_3_6B" \
+    --fps 24 \
+    --guidance_scale 7.5 \
+    --num_sampling_steps 100 \
+    --enable_tiling \
+    --tile_overlap_factor 0.125 \
+    --max_sequence_length 512 \
+    --model_type "dit" \
+    --sample_method flow

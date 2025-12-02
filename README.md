@@ -29,7 +29,7 @@ Shijun Shi<sup>1*</sup>, Jing Xu<sup>2*</sup>, Zhihang Li<sup>3</sup>, Chunli Pe
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://arxiv.org/abs/2511.22940" target="_blank">
-    <img src="https://img.shields.io/badge/📄%20arXiv-2506.01037-B31B1B?style=for-the-badge&logoColor=white" height="30"/>
+    <img src="https://img.shields.io/badge/📄%20arXiv-2511.22940-B31B1B?style=for-the-badge&logoColor=white" height="30"/>
   </a>
 </p>
 </div>

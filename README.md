@@ -28,9 +28,9 @@ Shijun Shi<sup>1*</sup>, Jing Xu<sup>2*</sup>, Zhihang Li<sup>3</sup>, Chunli Pe
     <img src="https://img.shields.io/badge/🌐%20Project%20Page-Visit%20Website-4285F4?style=for-the-badge&logoColor=white" height="30"/>
   </a>
   &nbsp;&nbsp;&nbsp;
-  <!-- <a href="https://arxiv.org/pdf/2506.01037" target="_blank">
-    <img src="https://img.shields.io/badge/📄%20arXiv-2506.01037-B31B1B?style=for-the-badge&logoColor=white" height="40"/>
-  </a> -->
+  <a href="https://arxiv.org/abs/2511.22940" target="_blank">
+    <img src="https://img.shields.io/badge/📄%20arXiv-2506.01037-B31B1B?style=for-the-badge&logoColor=white" height="30"/>
+  </a>
 </p>
 </div>
 

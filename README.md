@@ -47,23 +47,70 @@ We provide a **complete and reproducible** training and evaluation pipeline:
 
 <br>
 
-## 🎭 Showcase - 1.3B Model Results
-
-<p align="center">
-  <img src="./assets/combined_video1.gif" height="300"/> &nbsp;&nbsp; <img src="./assets/combined_video2.gif" height="300"/>
-</p>
-
-<br>
-
-
 ## 🔥 Update
-
 - [2025.11] Paper reproduction and evaluation code released.
 - [2025.11] [Sample training data and Benchmark](https://huggingface.co/datasets/MochunniaN1/One-to-All-sub) on HuggingFace released.
 - [2025.11] Inference and Training codes are released.
 - [2025.11] [1.3B-v1](https://huggingface.co/MochunniaN1/One-to-All-1.3b_1), [1.3B-v2](https://huggingface.co/MochunniaN1/One-to-All-1.3b_2) and  [14B](https://huggingface.co/MochunniaN1/One-to-All-14b) checkpoints are released.
 
 <br>
+
+## 🎭 Showcase
+
+Our model can adapt a single reference image to various motion patterns, demonstrating flexible motion control capabilities.
+
+#### 1.4B Model
+
+<table align="center">
+  <tr>
+    <th style="text-align: center;">Reference</th>
+    <th style="text-align: center;">Motion 1</th>
+    <th style="text-align: center;">Motion 2</th>
+    <th style="text-align: center;">Motion 3</th>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px;"><img src="./examples/new_examples/1.png" width="150"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_1_motion1.gif" width="150"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_1_motion2.gif" width="150"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_1_motion3.gif" width="150"/></td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px;"><img src="./examples/new_examples/2.png" width="190"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_2_motion1.gif" width="210"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_2_motion2.gif" width="210"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_2_motion3.gif" width="210"/></td>
+  </tr>
+</table>
+
+<br>
+
+#### 1.3B Model Results
+The 1.3 B model also delivers strong performance (from 1.3b_2 ckpt).
+
+<table align="center">
+  <tr>
+    <th style="text-align: center;">Reference</th>
+    <th style="text-align: center;">Motion 1</th>
+    <th style="text-align: center;">Motion 2</th>
+    <th style="text-align: center;">Motion 3</th>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px;"><img src="./examples/new_examples/3.png" width="190"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/1.3b_examples/ref3_motion1_1.3b.gif" width="210"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/1.3b_examples/ref3_motion2_1.3b.gif" width="210"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/1.3b_examples/ref3_motion3_1.3b.gif" width="210"/></td>
+  </tr>
+</table>
+
+Also support longer video & out-of-domain cases 
+
+<p align="center">
+  <img src="./assets/combined_video1.gif" height="200"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/combined_video2.gif" height="200"/>
+</p>
+
+<br>
+
+
 
 ## 🔧 Dependencies and Installation
 

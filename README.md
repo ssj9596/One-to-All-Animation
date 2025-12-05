@@ -69,16 +69,16 @@ Our model can adapt a single reference image to various motion patterns, demonst
     <th style="text-align: center;">Motion 3</th>
   </tr>
   <tr>
-    <td align="center" style="padding: 10px;"><img src="./examples/new_examples/1.png" width="150"/></td>
-    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_1_motion1.gif" width="150"/></td>
-    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_1_motion2.gif" width="150"/></td>
-    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_1_motion3.gif" width="150"/></td>
+    <td align="center" style="padding: 10px;"><img src="./examples/new_examples/1.png" width="250"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_1_motion1.gif" width="250"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_1_motion2.gif" width="250"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_1_motion3.gif" width="250"/></td>
   </tr>
   <tr>
-    <td align="center" style="padding: 10px;"><img src="./examples/new_examples/2.png" width="190"/></td>
-    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_2_motion1.gif" width="210"/></td>
-    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_2_motion2.gif" width="210"/></td>
-    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_2_motion3.gif" width="210"/></td>
+    <td align="center" style="padding: 10px;"><img src="./examples/new_examples/2.png" width="250"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_2_motion1.gif" width="250"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_2_motion2.gif" width="250"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/14b_examples/ref_2_motion3.gif" width="250"/></td>
   </tr>
 </table>
 
@@ -95,17 +95,16 @@ The 1.3 B model also delivers strong performance (from 1.3b_2 ckpt).
     <th style="text-align: center;">Motion 3</th>
   </tr>
   <tr>
-    <td align="center" style="padding: 10px;"><img src="./examples/new_examples/3.png" width="190"/></td>
-    <td align="center" style="padding: 10px;"><img src="assets/1.3b_examples/ref3_motion1_1.3b.gif" width="210"/></td>
-    <td align="center" style="padding: 10px;"><img src="assets/1.3b_examples/ref3_motion2_1.3b.gif" width="210"/></td>
-    <td align="center" style="padding: 10px;"><img src="assets/1.3b_examples/ref3_motion3_1.3b.gif" width="210"/></td>
+    <td align="center" style="padding: 10px;"><img src="./examples/new_examples/3.png" width="250"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/1.3b_examples/ref3_motion1_1.3b.gif" width="250"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/1.3b_examples/ref3_motion2_1.3b.gif" width="250"/></td>
+    <td align="center" style="padding: 10px;"><img src="assets/1.3b_examples/ref3_motion3_1.3b.gif" width="250"/></td>
   </tr>
 </table>
 
 Also support longer video & out-of-domain cases 
-
 <p align="center">
-  <img src="./assets/combined_video1.gif" height="200"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/combined_video2.gif" height="200"/>
+  <img src="./assets/1.3b_examples/combined_video1.gif" height="200"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/1.3b_examples/combined_video2.gif" height="200"/>
 </p>
 
 <br>

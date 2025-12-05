@@ -84,7 +84,7 @@ Our model can adapt a single reference image to various motion patterns, demonst
 
 <br>
 
-#### 1.3B Model Results
+#### 1.3B Model
 The 1.3 B model also delivers strong performance (from 1.3b_2 ckpt).
 
 <table align="center">
@@ -104,7 +104,7 @@ The 1.3 B model also delivers strong performance (from 1.3b_2 ckpt).
 
 Also support longer video & out-of-domain cases 
 <p align="center">
-  <img src="./assets/1.3b_examples/combined_video1.gif" height="200"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/1.3b_examples/combined_video2.gif" height="200"/>
+  <img src="./assets/1.3b_examples/combined_video1.gif" height="250"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="./assets/1.3b_examples/combined_video2.gif" height="250"/>
 </p>
 
 <br>

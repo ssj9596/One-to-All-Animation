@@ -59,7 +59,7 @@ We provide a **complete and reproducible** training and evaluation pipeline:
 
 Our model can adapt a single reference image to various motion patterns, demonstrating flexible motion control capabilities.
 
-#### 1.4B Model
+#### 14B Model
 
 <table align="center">
   <tr>

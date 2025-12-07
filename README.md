@@ -183,7 +183,7 @@ You can enter the script to modify the input path.
 
 >💡 **Data Collection Required**: We find current open-source datasets are not sufficient for training from scratch. We strongly recommend collecting *at least 3,000 additional high-quality video samples* for better results.
 
-We divide the training process into several steps to help you reproduce our results from scratch (using 1.3B as an example).
+We divide the training process into several steps to help you train from scratch (using 1.3B as an example).
 
 1. Download Pretrained Models
 

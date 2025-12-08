@@ -48,6 +48,7 @@ We provide a **complete and reproducible** training and evaluation pipeline:
 <br>
 
 ## 🔥 Update
+- [2025.12] [kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) now integrates One‑to‑All Animation 14B! Huge thanks to **kijai** for the amazing work!!! **Note**: Our model supports both retargeted pose and direct pose (with reference preprocessing) from the original video. In addition, using lighter colors for the facial skeleton and landmarks helps achieve better identity consistency.
 - [2025.11] Paper reproduction and evaluation code released.
 - [2025.11] [Sample training data and Benchmark](https://huggingface.co/datasets/MochunniaN1/One-to-All-sub) on HuggingFace released.
 - [2025.11] Inference and Training codes are released.

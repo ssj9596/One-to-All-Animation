@@ -297,7 +297,7 @@ If you find our work helpful or inspiring, please feel free to cite it.
 
 ```bibtex
 @article{shi2025one,
-  title={One-to-All Animation: Alignment-Free Character Animation and Image Pose Transfe},
+  title={One-to-All Animation: Alignment-Free Character Animation and Image Pose Transfer},
   author={Shi, Shijun and Xu, Jing and Li, Zhihang and Peng, Chunli and Yang, Xiaoda and Lu, Lijing and Hu, Kai and Zhang, Jiangning},
   journal={arXiv preprint arXiv:2511.22940},
   year={2025}

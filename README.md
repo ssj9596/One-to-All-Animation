@@ -292,6 +292,19 @@ We provide scripts to reproduce the quantitative results reported in our paper.
 
 Our project is based on [opensora](https://github.com/hpcaitech/Open-Sora). Some codes are brought from [StableAnimator](https://github.com/Francis-Rings/StableAnimator) and [Wan-Animate](https://github.com/Wan-Video/Wan2.2). Thanks for their awesome works.
 
+## 📝 Citation
+If you find our work helpful or inspiring, please feel free to cite it.
+
+```bibtex
+@article{shi2025one,
+  title={One-to-All Animation: Alignment-Free Character Animation and Image Pose Transfe},
+  author={Shi, Shijun and Xu, Jing and Li, Zhihang and Peng, Chunli and Yang, Xiaoda and Lu, Lijing and Hu, Kai and Zhang, Jiangning},
+  journal={arXiv preprint arXiv:2511.22940},
+  year={2025}
+}
+```
+## 📄 License
+This repository is released under the [Apache License 2.0](LICENSE).
 
 ## 📧 Contact
 If you have any questions, please feel free to reach us at `ssj180123@gmail.com`

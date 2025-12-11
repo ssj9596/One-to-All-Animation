@@ -144,13 +144,13 @@ Also support longer video & out-of-domain cases
    - Download pretrained models
    ```bash
     cd ./pretrained_models 
-    bash download_pretrained_models.py
+    python download_pretrained_models.py
     ```
 
    - Download checkpoints
     ```bash
     cd ./checkpoints
-    bash download_checkpoints.py
+    python download_checkpoints.py
     ```
 
     > 💡 **Tip**: Edit the script and uncomment the specific models you want to download.

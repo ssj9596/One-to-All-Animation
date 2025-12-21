@@ -49,7 +49,7 @@ We provide a **complete and reproducible** training and evaluation pipeline:
 
 ## 🔥 Update
 - [2025.12.22] 🔥🔥🔥 **GPU-poor? Run One-to-All1.3B + ComfyUI for free on Kaggle’s 16 GB T4.**
-    We’ve released a zero-setup guide that runs the One-to-All ComfyUI workflow on Kaggle’s free 16 GB T4—completely free😊. It takes 11 minutes to generate a 10-second 832×480 video.
+    We’ve released a zero-setup guide that runs the One-to-All ComfyUI workflow on Kaggle’s 16 GB T4—completely free😊. It takes 11 minutes to generate a 10-second 832×480 video.
 Tutorial: https://ncn0ojsozocg.feishu.cn/wiki/J9Ohwmtudin0vtkuyPccIZkhnZz
 - [2025.12] [kijai's ComfyUI WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) now integrates One‑to‑All Animation 14B! Huge thanks to **kijai** for the amazing work!!! **Note**: Our model supports both retargeted pose and direct pose (with reference preprocessing) from the original video. In addition, using lighter colors for the facial skeleton and landmarks helps achieve better identity consistency.
 - [2025.11] Paper reproduction and evaluation code released.

@@ -48,6 +48,7 @@ We provide a **complete and reproducible** training and evaluation pipeline:
 <br>
 
 ## 🔥 Update
+- [2026.02.24] 🎉🎉🎉 One-to-All Animation has been accepted by CVPR 2026!
 - [2025.12.22] 🔥🔥🔥 **GPU-poor? Run One-to-All1.3B + ComfyUI for free on Kaggle’s 16 GB T4.**
     We’ve released a zero-setup guide that runs the One-to-All ComfyUI workflow on Kaggle’s 16 GB T4—completely free😊. It takes 11 minutes to generate a 10-second 832×480 video.
 Tutorial: https://ncn0ojsozocg.feishu.cn/wiki/J9Ohwmtudin0vtkuyPccIZkhnZz

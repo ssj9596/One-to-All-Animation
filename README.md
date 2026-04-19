@@ -253,7 +253,7 @@ We provide scripts to reproduce the quantitative results reported in our paper.
 1. Download Benchmark
     ```bash
     cd benchmark
-    bash setup_datasets.sh
+    python download_benchmark.py
     ```
 2. Prepare Model Input
     ```bash
